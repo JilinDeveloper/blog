@@ -6,7 +6,8 @@ export default {
   description: "知识共享",
   appearance: "dark",
   markdown,
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  base: "/blog/",
+  head: [["link", { rel: "icon", href: "/blog/favicon.ico" }]],
   themeConfig: {
     // logo: "/images/logo.png",
     nav: [
