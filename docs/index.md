@@ -12,7 +12,7 @@ hero:
       link: /frontend
     - theme: alt
       text: 后端开发
-      link: /backemd
+      link: /backend
 
 features:
   - title: 前端开发
