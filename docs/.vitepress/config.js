@@ -11,22 +11,25 @@ export default {
   themeConfig: {
     // logo: "/images/logo.png",
     nav: [
-      { text: "前端开发", link: "/frontend/index" },
-      { text: "后端开发", link: "/backend/index" },
-      { text: "面试", link: "/interview/index" },
-      { text: "AI", link: "/ai/index" },
+      { text: "面试", link: "/interview/job" },
+      { text: "Web 开发", link: "/web/frontend/index" },
+      { text: "移动端开发", link: "/app/index" },
+      { text: "工具", link: "/tools/vitepress" },
     ],
     sidebar: {
-      "/frontend": [
+      "/web": [
         {
-          text: "前端开发",
-          items: [{ text: "概述", link: "/frontend/index" }],
+          // text: "Web 开发",
+          items: [
+            { text: "前端开发", link: "/web/frontend/index" },
+            { text: "后端开发", link: "/web/backend/index" },
+          ],
         },
       ],
-      "/backend": [
+      "/app": [
         {
-          text: "后端开发",
-          items: [{ text: "概述", link: "/backend/index" }],
+          text: "移动端开发",
+          items: [{ text: "概述", link: "/app/index" }],
         },
       ],
       "/ai": [
@@ -37,10 +40,11 @@ export default {
       ],
       "/interview": [
         {
-          text: "面试",
-          items: [{ text: "概述", link: "/interview/index" }],
+          // text: "应聘",
+          items: [{ text: "应聘", link: "/interview/job" }],
         },
       ],
+      "/tools": [{ text: "VitePress", link: "/tools/vitepress" }],
     },
     docFooter: {
       prev: "上一篇",
@@ -50,6 +54,13 @@ export default {
     search: {
       provider: "local",
       options: localSearchOptions,
+    },
+    lastUpdated: {
+      text: "最后更新于",
+      formatOptions: {
+        dateStyle: "short",
+        timeStyle: "medium",
+      },
     },
   },
 };

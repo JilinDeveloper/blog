@@ -3,7 +3,7 @@
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "start": "vitepress dev docs --open",
+    "start": "vitepress dev docs --open --port 7070",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   }

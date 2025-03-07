@@ -8,12 +8,11 @@ hero:
   tagline: 热爱技术 共享知识
   actions:
     - theme: brand
-      text: 前端开发
-      link: /frontend
+      text: 面试
+      link: /interview/job
     - theme: alt
-      text: 后端开发
-      link: /backemd
-
+      text: Web 开发
+      link: /web
 features:
   - title: 前端开发
     details: React / Vue / JavaScript
